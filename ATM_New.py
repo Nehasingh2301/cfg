@@ -1,3 +1,5 @@
+# This program is for developed to make ATM withdrwal process
+
 pin = '1234'
 balance = 100
 
@@ -33,7 +35,7 @@ if __name__ == '__main__':
                     balance = Widthdraw_Cash()
                 elif option == 2:
                     print("Your Balance is {}".format(balance))
-                break;
+                break
             else:
                 print('Wrong pin! please enter correct pin.')
                 print('You have only {} attempt left.'.format(allowedPinAttempt-pinTotalattempt))
